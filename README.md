@@ -29,13 +29,13 @@ change the layer name `'data'` which the filter is applied to:
 	lyr.setSubsetString(filter_expression)
 ```
 
-#### Location
+#### Location:
 Specift coords to set the map canvas to:
 ```python
 make_pdf(500000, 150000, 505000, 155000, filter_expression)
 ```
 
-#### Title
+#### Title:
 Change the title:
 ```python
 	substitution_map = {
@@ -43,3 +43,6 @@ Change the title:
 ```
 ## What happens
 The script will print the pdf using the qpt template based on whatever layers are loaded in the `'single_pdf.qgs'` file.
+
+## Links
+Most of the script is from Tim Sutton's example [here](http://kartoza.com/how-to-create-a-qgis-pdf-report-with-a-few-lines-of-python/): 
