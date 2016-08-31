@@ -1,0 +1,396 @@
+<Composer title="Composer 1" visible="1">
+ <Composition gridVisible="1" printResolution="300" paperWidth="297" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="1" snapTolerancePixels="5" numPages="1" paperHeight="210" smartGuides="1" printAsRaster="1" generateWorldFile="0">
+  <symbol alpha="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="bevel"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="114,133,132,255"/>
+    <prop k="outline_style" v="solid"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <ComposerPicture resizeMode="3" pictureRotation="0" pictureWidth="47.8543" file="img/watermark.png" pictureHeight="48.1479" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="20" page="1" id="Watermark" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="20" y="20" visibility="1" zValue="15" background="false" transparency="50" frameJoinStyle="miter" blendMode="6" width="47.8543" outlineWidth="0.3" excludeFromExports="0" uuid="{1e6fcd3c-7be6-4ead-8055-7228b4c31e4a}" height="48.1479" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerLabel valign="64" marginX="1" marginY="1" labelText="[title]" htmlState="0" halign="4">
+   <LabelFont description="Arial,12,-1,5,75,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="10" page="1" id="Title of map" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="20" y="10" visibility="1" zValue="14" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="0" uuid="{d228fcf3-2d6c-4428-8597-58a0fbe11c30}" height="10" itemRotation="0" frame="false" pagex="20">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="//" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" legendFilterByMap="1" columnCount="1">
+   <styles>
+    <style marginBottom="2" name="title" font="Arial,10,-1,5,75,0,0,0,0,0"/>
+    <style marginTop="2" name="group" font="Arial,10,-1,5,50,1,0,0,0,0"/>
+    <style marginTop="2" name="subgroup" font="Arial,10,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="symbol" font="Arial,8.25,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" marginLeft="2" name="symbolLabel" font="Arial,10,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <ComposerItem pagey="22.6458" page="1" id="Legend" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="235.857" y="22.6458" visibility="1" zValue="13" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="19.5" outlineWidth="0.3" excludeFromExports="0" uuid="{ffcf3849-ae4f-4ac0-a42f-94fc7814a109}" height="15.5" itemRotation="0" frame="false" pagex="235.857">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Render" drawCanvasItems="true">
+   <Extent ymin="148220.75216529003228061" xmin="493547.06426988955354318" ymax="148220.90093393353163265" xmax="493547.24791165330680087"/>
+   <LayerSet/>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="128,125,120,255" show="0" bottomAnnotationPosition="1" annotationFont="Arial,8.25,-1,5,50,0,0,0,0,0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{f98508b0-9370-4309-b146-25f929644795}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="3" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="1" annotationFontColor="128,125,120,255" intervalX="10000" gridFrameSideFlags="9" intervalY="10000" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="3" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="3" rightAnnotationPosition="1" gridFrameWidth="2" name="Gridlines every 10km" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="flat"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="128,125,120,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.3"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="area"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+     <srsid>2437</srsid>
+     <srid>27700</srid>
+     <authid>EPSG:27700</authid>
+     <description>OSGB 1936 / British National Grid</description>
+     <projectionacronym>tmerc</projectionacronym>
+     <ellipsoidacronym>airy</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+   </ComposerMapGrid>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="128,125,120,255" show="0" bottomAnnotationPosition="1" annotationFont="Arial,8.25,-1,5,50,0,0,0,0,0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{c4c0205a-2cc0-457d-9ad2-a51d6da1ee40}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="3" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="1" annotationFontColor="128,125,120,255" intervalX="5000" gridFrameSideFlags="9" intervalY="5000" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="3" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="3" rightAnnotationPosition="1" gridFrameWidth="2" name="Gridlines every 5km" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="flat"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="128,125,120,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.3"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="area"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+     <srsid>2437</srsid>
+     <srid>27700</srid>
+     <authid>EPSG:27700</authid>
+     <description>OSGB 1936 / British National Grid</description>
+     <projectionacronym>tmerc</projectionacronym>
+     <ellipsoidacronym>airy</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+   </ComposerMapGrid>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="128,125,120,255" show="0" bottomAnnotationPosition="1" annotationFont="Arial,8.25,-1,5,50,0,0,0,0,0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{20268fee-26db-44f9-9832-0002106b7d24}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="3" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="128,125,120,255" intervalX="1000" gridFrameSideFlags="9" intervalY="1000" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="3" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="3" rightAnnotationPosition="1" gridFrameWidth="2" name="Gridlines every 1km" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="flat"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="128,125,120,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.3"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="area"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+     <srsid>2437</srsid>
+     <srid>27700</srid>
+     <authid>EPSG:27700</authid>
+     <description>OSGB 1936 / British National Grid</description>
+     <projectionacronym>tmerc</projectionacronym>
+     <ellipsoidacronym>airy</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+   </ComposerMapGrid>
+   <ComposerMapGrid rightAnnotationDirection="1" gridFramePenColor="128,125,120,255" show="0" bottomAnnotationPosition="1" annotationFont="Arial,8,-1,5,50,0,0,0,0,0" annotationPrecision="0" showAnnotation="1" topFrameDivisions="0" uuid="{e30d6bf9-e4ed-4c67-9ca1-7a5affe4c63c}" leftAnnotationDirection="1" topAnnotationPosition="1" rightAnnotationDisplay="3" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="128,125,120,255" intervalX="500" gridFrameSideFlags="9" intervalY="500" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.29999999999999999" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="3" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="3" rightAnnotationPosition="1" gridFrameWidth="2" name="Gridlines every 500m" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="flat"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="128,125,120,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0.3"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="area"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <spatialrefsys>
+     <proj4>+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs</proj4>
+     <srsid>2437</srsid>
+     <srid>27700</srid>
+     <authid>EPSG:27700</authid>
+     <description>OSGB 1936 / British National Grid</description>
+     <projectionacronym>tmerc</projectionacronym>
+     <ellipsoidacronym>airy</ellipsoidacronym>
+     <geographicflag>false</geographicflag>
+    </spatialrefsys>
+   </ComposerMapGrid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="20" page="1" id="Main Map" lastValidViewScaleFactor="3.54945" positionMode="0" positionLock="true" x="20" y="20" visibility="1" zValue="12" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="209.85" outlineWidth="0.3" excludeFromExports="0" uuid="{dec427f3-6198-4245-86e0-0823544cce44}" height="170" itemRotation="0" frame="true" pagex="20">
+    <FrameColor alpha="255" red="128" blue="120" green="125"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="Publication Date: [%format_date( $now, 'yyyy-MM-dd')%]" htmlState="0" halign="4">
+   <LabelFont description="Arial,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="145.848" page="1" id="Print date" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="232.946" y="145.848" visibility="1" zValue="11" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="53.6039" outlineWidth="0.3" excludeFromExports="0" uuid="{8297e650-6b20-49c4-929d-2b91e4cab13e}" height="6.87917" itemRotation="0" frame="false" pagex="232.946">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="128" marginX="1" marginY="1" labelText="© Copyright [%year($now)%]" htmlState="0" halign="4">
+   <LabelFont description="Arial,6,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="167.306" page="1" id="Copyright notice" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="233.096" y="167.306" visibility="1" zValue="10" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="53.3039" outlineWidth="0.3" excludeFromExports="0" uuid="{764936dc-0c58-4e3b-81a6-604589eaa4c8}" height="7.42083" itemRotation="0" frame="true" pagex="233.096">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Scale at A4:" htmlState="0" halign="1">
+   <LabelFont description="Arial,10,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="154.579" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="248.767" y="154.579" visibility="1" zValue="9" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="32.0458" outlineWidth="0.3" excludeFromExports="0" uuid="{e75440dc-f10d-4d0d-adb4-64ff990708f3}" height="6.80625" itemRotation="0" frame="false" pagex="248.767">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerScaleBar segmentMillimeters="114271" numMapUnitsPerScaleBarUnit="1" numSegments="4" height="3" alignment="0" labelBarSpace="3" outlineWidth="1" units="1" numSegmentsLeft="2" lineJoinStyle="miter" style="Numeric" unitLabel="m" lineCapStyle="square" font="Arial,10,-1,5,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="100">
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="255" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="159.081" page="1" id="Scale factor of main map" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="248.767" y="159.081" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="34.8719" outlineWidth="0.3" excludeFromExports="0" uuid="{7eb8b933-d855-4f85-8997-faf9cb4c7fee}" height="6.4875" itemRotation="0" frame="false" pagex="248.767">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="8.14792" file="img/NorthArrow_04.svg" pictureHeight="8.19791" mapId="0" anchorPoint="4">
+   <ComposerItem pagey="154.579" page="1" id="North arrow" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="235.857" y="154.579" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="8.14792" outlineWidth="0.3" excludeFromExports="0" uuid="{2bcab960-8c77-469c-b868-678c015ac202}" height="10.6562" itemRotation="0" frame="false" pagex="235.857">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0"/>
+     <prop k="color" v="0,0,0,0"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="no"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="20" page="1" id="Legend frame" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="233.096" y="20" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="53.3039" outlineWidth="0.3" excludeFromExports="0" uuid="{265ed872-a25f-4d45-8ca5-261f4197d201}" height="125.698" itemRotation="0" frame="false" pagex="233.096">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0"/>
+     <prop k="color" v="0,0,0,0"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="no"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="20.15" page="1" id="Title bar frame" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="233.096" y="20.15" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="53.3039" outlineWidth="0.3" excludeFromExports="0" uuid="{4825db6a-aac1-4ca0-b32b-8258533205e9}" height="169.85" itemRotation="0" frame="false" pagex="233.096">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" type="fill" name="">
+    <layer pass="0" class="SimpleLine" locked="0">
+     <prop k="capstyle" v="square"/>
+     <prop k="customdash" v="5;2"/>
+     <prop k="customdash_map_unit_scale" v="0,0"/>
+     <prop k="customdash_unit" v="MM"/>
+     <prop k="draw_inside_polygon" v="0"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="line_color" v="0,0,0,255"/>
+     <prop k="line_style" v="solid"/>
+     <prop k="line_width" v="0.5"/>
+     <prop k="line_width_unit" v="MM"/>
+     <prop k="offset" v="0"/>
+     <prop k="offset_map_unit_scale" v="0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="use_custom_dash" v="0"/>
+     <prop k="width_map_unit_scale" v="0,0"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="10" page="1" id="Page frame" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="10" y="10" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="279.75" outlineWidth="0.3" excludeFromExports="0" uuid="{175db7a7-3668-4eac-a57e-557f883884e9}" height="189.75" itemRotation="0" frame="false" pagex="10">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerPicture resizeMode="0" pictureRotation="0" pictureWidth="14.8817" file="img/logo.png" pictureHeight="14.973" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="175.027" page="1" id="GBC logo" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="233.096" y="175.027" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="53.3039" outlineWidth="0.3" excludeFromExports="0" uuid="{1b0cb8b3-fb25-413a-ae60-76b9ffbe8418}" height="14.973" itemRotation="0" frame="true" pagex="233.096">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+   </ComposerItem>
+  </ComposerPicture>
+ </Composition>
+</Composer>
