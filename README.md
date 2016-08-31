@@ -9,13 +9,17 @@
 ### Customise the python script
 Edit this for your situation: [standalone_generate_pdf.py](standalone_generate_pdf.py)
 #### file paths:
-`project_path = 'single_pdf.qgs'`
-`template_path = 'single_pdf_a4_landscape.qpt'`
-`composition.exportAsPDF('export.pdf')`
+```python
+project_path = 'single_pdf.qgs'
+template_path = 'single_pdf_a4_landscape.qpt'
+composition.exportAsPDF('export.pdf')
+```
 
 #### Filter:
 change the filter_expression:
-`filter_expression = '"name" IN ("Burpham Ward", "Send Ward", "Merrow Ward", "Holy Trinity Ward")'`
+```python
+filter_expression = '"name" IN ("Burpham Ward", "Send Ward", "Merrow Ward", "Holy Trinity Ward")'
+```
 change the layer name `'data'` which the filter is applied to:
 ```python
 	for layer in QgsMapLayerRegistry.instance().mapLayers().values():
