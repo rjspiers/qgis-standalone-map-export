@@ -8,7 +8,7 @@
 
 ### Customise the python script
 Edit this for your situation: [standalone_generate_pdf.py](standalone_generate_pdf.py)
-#### file paths:
+#### File paths:
 ```python
 project_path = 'single_pdf.qgs'
 template_path = 'single_pdf_a4_landscape.qpt'
@@ -30,7 +30,7 @@ change the layer name `'data'` which the filter is applied to:
 ```
 
 #### Location:
-Specift coords to set the map canvas to:
+Specify coords to set the map canvas to:
 ```python
 make_pdf(500000, 150000, 505000, 155000, filter_expression)
 ```
